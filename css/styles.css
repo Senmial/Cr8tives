@@ -1,0 +1,155 @@
+body, html{
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+    font-family: "Quicksand", sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+header img{
+    width: 200px;
+    height: 44px;
+    margin-left: 550px;
+}
+
+button{
+    background-color: #0074E4;
+    color: white;
+    width: 123px;
+    height: 38px;
+    border-radius: 20px;
+    font-family: "Quicksand", sans-serif;
+    border: #0074E4;
+    margin-left: 450px;
+    font-style: italic;
+}
+
+.creative_opp{
+    margin: 50px;
+}
+.creative_opp h3{ 
+    font-weight: 600;
+    font-size: 35px;
+    font-style: italic;
+    margin: 0px;
+    text-align: center;
+}
+.section_two{
+    display: flex;
+    justify-content: center;
+}
+.two_iphones{
+    display: flex;
+    background-color:#f4f4f5;
+    border-radius: 5px;
+    width: 1250px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;  
+}
+.two_iphones img{
+   width: 800px;
+   height: 500px;
+}
+
+.section_three{
+    margin-top: 60px;
+    margin-left: 130px;
+    margin-bottom: 60PX;
+}
+.section_three h3{ 
+    font-weight: 600;
+    font-size: 40px;
+    font-style: italic;
+    text-align: start;
+    margin: -3px;
+}
+
+.portfolio{
+    color: #0074E4;
+}
+
+.three_rectangles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+.three_rectangles img{
+    width: 409px;
+    height: 581px;
+}
+
+.discover_the_stories{
+    margin-top: 40px;
+    margin-left: 130px;
+    margin-bottom: 60PX;
+}
+.discover_the_stories p{
+    font-size: 20px;
+    font-style: italic;
+    text-align: start;
+    margin: -3px;
+    color: #888888;
+    }
+
+    .discover_what_creatives{
+        margin-top: 60px;
+        margin-left: 130px;
+        margin-bottom: 60PX;
+    }
+    .discover_what_creatives h4{ 
+        font-weight: 600;
+        font-size: 40px;
+        font-style: italic;
+        text-align: start;
+        margin: -3px;
+    }
+    .blue_cr8tive_text{
+        color: #0074E4;
+    }
+    .discover_what_creatives{
+        display: flex;
+        flex-direction: column;
+  
+    }
+    .discover_what_creatives h5{
+        color: #000000;
+        font-size: 25px;
+        font-style: italic;
+        margin-bottom: 5px;
+    }
+    .blue_headings:hover{
+        color: #0074E4;
+    }
+
+    .discover_what_creatives p{
+        color:#888888;
+        font-size: 20px;
+        font-style: italic;
+        margin: -5px;
+    }
+    /* .textbyphoto{
+        display: flex;
+    } */
+    
+
+
+
+
+
+    /* .scroll_bar{
+        height: 900px;
+        width: 2px;
+        background-color: #0074E4;
+    } */
+
+
+
+
