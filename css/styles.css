@@ -2,7 +2,7 @@ body, html{
     padding: 0px;
     margin: 0px;
     background-color: white;
-    font-family: "Quicksand", sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 header{
@@ -10,35 +10,45 @@ header{
     justify-content: center;
     align-items: center;
     margin: 30px;
+    justify-content: space-evenly;
+
 }
 header img{
     width: 200px;
     height: 44px;
-    margin-left: 550px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
-button{
+.header_button{
     background-color: #0074E4;
     color: white;
     width: 123px;
     height: 38px;
     border-radius: 20px;
-    font-family: "Quicksand", sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
     border: #0074E4;
-    margin-left: 450px;
     font-style: italic;
 }
+
+/* section 1 starts here */
 
 .creative_opp{
     margin: 50px;
 }
 .creative_opp h3{ 
-    font-weight: 600;
-    font-size: 35px;
+    font-weight: 400;
+    font-size: 50px;
     font-style: italic;
     margin: 0px;
     text-align: center;
 }
+/* end of section 1 */
+
+
+/* section 2 starts here */
+
 .section_two{
     display: flex;
     justify-content: center;
@@ -57,14 +67,19 @@ button{
    height: 500px;
 }
 
+/* end of section 2 */
+
+
+/* section 3 starts here */
+
 .section_three{
     margin-top: 60px;
     margin-left: 130px;
     margin-bottom: 60PX;
 }
 .section_three h3{ 
-    font-weight: 600;
-    font-size: 40px;
+    font-weight: 400;
+    font-size: 50px;
     font-style: italic;
     text-align: start;
     margin: -3px;
@@ -73,6 +88,11 @@ button{
 .portfolio{
     color: #0074E4;
 }
+
+/* end of section 3 */
+
+/* section 4 starts here */
+
 
 .three_rectangles{
     display: flex;
@@ -85,6 +105,10 @@ button{
     width: 409px;
     height: 581px;
 }
+
+/* end of section 4 */
+
+/* section 5 starts here */
 
 .discover_the_stories{
     margin-top: 40px;
@@ -99,14 +123,18 @@ button{
     color: #888888;
     }
 
+/* end of section 5 */
+
+/* start of section 6 */
+
     .discover_what_creatives{
         margin-top: 60px;
         margin-left: 130px;
         margin-bottom: 60PX;
     }
     .discover_what_creatives h4{ 
-        font-weight: 600;
-        font-size: 40px;
+        font-weight: 400;
+        font-size: 50px;
         font-style: italic;
         text-align: start;
         margin: -3px;
@@ -114,41 +142,94 @@ button{
     .blue_cr8tive_text{
         color: #0074E4;
     }
-    .discover_what_creatives{
-        display: flex;
-        flex-direction: column;
-  
-    }
+    
     .discover_what_creatives h5{
         color: #000000;
         font-size: 25px;
+        font-weight: 400;
         font-style: italic;
-        margin-bottom: 5px;
+        margin-bottom: 10px;
     }
     .blue_headings:hover{
         color: #0074E4;
     }
+    .creative_networking{
+        color: #0074E4;
+
+    }
 
     .discover_what_creatives p{
         color:#888888;
-        font-size: 20px;
+        font-size: 15px;
+        font-weight: 300;
         font-style: italic;
         margin: -5px;
     }
-    /* .textbyphoto{
-        display: flex;
-    } */
     
+    .textbyphoto{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content:space-around;
+        margin-top: 20px;
+    }
+    .textbyphoto img{
+        width: 304px;
+        height: 602.67px;
+    }
 
-
-
-
-
-    /* .scroll_bar{
-        height: 900px;
+      /* .scroll_bar{
+        height: 600px;
         width: 2px;
         background-color: #0074E4;
     } */
+
+    /* end of section 7 */
+
+    /* section 7  starts here*/
+    .ready_to_spark {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .ready_to_spark h3{ 
+        font-weight: 400;
+        font-size: 50px;
+        font-style: italic;
+        text-align: start;
+        margin: 0px;
+    }
+
+    .section7_button{
+        background-color: #0074E4;
+        color: white;
+        width: 123px;
+        height: 38px;
+        border-radius: 20px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        border: #0074E4;
+        font-style: italic;
+        margin: 40px;
+    }
+    /* end of section 7 */
+
+    /* section 8 begins */
+
+  .iphoneUIs{
+    position: absolute;
+    display: flex;
+    align-items: center;
+  }
+
+.cropped_up{
+    position: absolute;
+}
+
 
 
 
