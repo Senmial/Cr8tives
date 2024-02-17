@@ -221,14 +221,27 @@ header img{
     /* section 8 begins */
 
   .iphoneUIs{
-    position: absolute;
+    /* position: absolute; */
     display: flex;
-    align-items: center;
+   align-items: center;
+    justify-content: center;
+    width: 1247px;
+    height: 806px;
   }
 
-.cropped_up{
+  .cropped_iphones{
+    display: flex;
+  }
+  .bothcropped{
+    display: grid;
+  }
+/* .cropped_up{
     position: absolute;
-}
+    margin-bottom: 170px;} */
+
+/* .cropped_down{
+    margin-top: 100px;
+} */
 
 
 
