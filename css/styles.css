@@ -227,10 +227,11 @@ header img{
     justify-content: center;
     width: 1247px;
     height: 806px;
+    margin-bottom: 300px;
   }
 
   .cropped_iphones{
-    display: flex;
+    /* display: flex; */
   }
   .bothcropped{
     display: grid;
@@ -242,6 +243,22 @@ header img{
 /* .cropped_down{
     margin-top: 100px;
 } */
+
+/* end of section 8 */
+
+/* footer begins */
+
+footer{
+    background-color: #000000;
+    color: #f4f4f5;
+    font-family: "Roboto", sans-serif;
+}
+
+footer h4{
+    font-size: 40px;
+    font-weight: 100;
+    margin: 30px 30px;
+}
 
 
 
