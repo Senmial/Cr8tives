@@ -10,14 +10,13 @@ header{
     justify-content: center;
     align-items: center;
     margin: 30px;
-    justify-content: space-evenly;
 
 }
 header img{
     width: 200px;
     height: 44px;
-    margin-left: 100px;
-    margin-right: 100px;
+    /* margin-left: 100px;
+    margin-right: 100px; */
 }
 
 .header_button{
@@ -30,6 +29,7 @@ header img{
     font-weight: 300;
     border: #0074E4;
     font-style: italic;
+    margin-right: 10px;
 }
 
 /* section 1 starts here */
@@ -228,6 +228,7 @@ header img{
     width: 1247px;
     height: 806px;
     margin-bottom: 300px;
+    
   }
 
   .cropped_iphones{
@@ -248,19 +249,71 @@ header img{
 
 /* footer begins */
 
+.section_9_footer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+
+}
+
 footer{
     background-color: #000000;
     color: #f4f4f5;
     font-family: "Roboto", sans-serif;
+    display: flex;
+    border-radius: 5px;
+    width: 1250px;
+    height: 484px;
+    text-align:justify;
+    gap: 50px;
 }
 
 footer h4{
     font-size: 40px;
     font-weight: 100;
-    margin: 30px 30px;
+    font-style: italic;
+    padding: 50px;
+    margin-bottom: 5px;
+}
+footer h5{
+    font-size: 30px;
+    font-weight: 100;
+    font-style: italic;
+    /* padding: 50px; */ */
+     margin-bottom: 5px;
+}
+
+.social_media_icons{
+    display: flex;
+    margin-left: 35px;
+    align-items: start;
+    gap: 40px;
 }
 
 
+.product_and_services{
+    display: flex;
+    justify-content: right;
+    gap: 50px;
+}
+    
+
+.product 
+.about_us {
+    display: flex;
+    gap: -5px;
+    margin-top: -5px;
+}
 
 
+.footer_logo{
+    display: flex;
+    align-items:end;
+}
+.footer_logo img{
+    width: 292px;
+    height: 66px;
+    justify-content: center;
+
+}
 
