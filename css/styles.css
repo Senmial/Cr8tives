@@ -7,19 +7,21 @@ body, html{
 
 header{
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     margin: 30px;
+    gap: 90px;
 
 }
 header img{
     width: 200px;
     height: 44px;
-    /* margin-left: 100px;
-    margin-right: 100px; */
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
-.header_button{
+/* .header_button{
     background-color: #0074E4;
     color: white;
     width: 123px;
@@ -30,7 +32,8 @@ header img{
     border: #0074E4;
     font-style: italic;
     margin-right: 10px;
-}
+    margin-left: 100px;
+} */
 
 /* section 1 starts here */
 
@@ -63,8 +66,8 @@ header img{
     align-items: center;  
 }
 .two_iphones img{
-   width: 800px;
-   height: 500px;
+    width: 800px;
+    height: 500px;
 }
 
 /* end of section 2 */
@@ -155,7 +158,6 @@ header img{
     }
     .creative_networking{
         color: #0074E4;
-
     }
 
     .discover_what_creatives p{
@@ -194,6 +196,7 @@ header img{
         align-items: center;
         text-align: center;
         margin-top: 100px;
+        margin-bottom: 200px;
     }
 
     .ready_to_spark h3{ 
@@ -209,7 +212,7 @@ header img{
         color: white;
         width: 123px;
         height: 38px;
-        border-radius: 20px;
+        border-radius: 25px;
         font-family: "Roboto", sans-serif;
         font-weight: 300;
         border: #0074E4;
@@ -221,29 +224,28 @@ header img{
     /* section 8 begins */
 
   .iphoneUIs{
-    /* position: absolute; */
     display: flex;
-   align-items: center;
+    align-items: center;
     justify-content: center;
-    width: 1247px;
     height: 806px;
     margin-bottom: 300px;
-    
   }
 
-  .cropped_iphones{
-    /* display: flex; */
-  }
-  .bothcropped{
-    display: grid;
-  }
-/* .cropped_up{
-    position: absolute;
-    margin-bottom: 170px;} */
+    .topThree{
+        display:flex ;
+    }
+    .bothcropped{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
 
-/* .cropped_down{
-    margin-top: 100px;
+    }
+  /* .inbetween_cropped_iphones{
+    width: 334px;
+    height: 30px;
+    background-color:#000000;
 } */
+
 
 /* end of section 8 */
 
@@ -266,6 +268,7 @@ footer{
     height: 484px;
     text-align:justify;
     gap: 50px;
+    margin-left: 20px;
 }
 
 footer h4{
@@ -279,8 +282,8 @@ footer h5{
     font-size: 30px;
     font-weight: 100;
     font-style: italic;
-    /* padding: 50px; */ */
-     margin-bottom: 5px;
+    /* padding: 50px; */
+    margin-bottom: 5px;
 }
 
 .social_media_icons{
@@ -295,16 +298,8 @@ footer h5{
     display: flex;
     justify-content: right;
     gap: 50px;
+    margin-right: 20px;
 }
-    
-
-.product 
-.about_us {
-    display: flex;
-    gap: -5px;
-    margin-top: -5px;
-}
-
 
 .footer_logo{
     display: flex;
